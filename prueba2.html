@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Personal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Proyecto M1, Mi Página Personal</h1>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre Mí</h2>
+      <p>Breve párrafo de presentación...</p>
+    </section>
+
+    <section id="mis-tecnologias-favoritas">
+      <h2>Mis Tecnologías Favoritas</h2>
+      <div class="tecnologias">
+        <!-- Aquí se insertarán las tarjetas de tecnologías favoritas mediante JavaScript -->
+      </div>
+    </section>
+
+    <section id="mis-actividades-favoritas">
+      <h2>Mis Actividades Favoritas</h2>
+      <div id="actividades-form">
+        <input type="text" id="titulo" placeholder="Título">
+        <input type="text" id="descripcion" placeholder="Descripción">
+        <input type="text" id="urlImagen" placeholder="URL de la Imagen">
+        <button onclick="agregarActividad()">Agregar Actividad</button>
+      </div>
+      <div id="actividades" class="actividades">
+        <!-- Aquí se insertarán las tarjetas de actividades creadas mediante JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

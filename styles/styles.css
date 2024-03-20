@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; 
+    margin: 20px;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(4, 120, 35); 
+    font-size: 35px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    
+  }
+  p {
+    color: white; 
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  
+  video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+  }
+  .tecnologias {
+    display: flex; 
+  }
+  
+  .tecnologias > div {
+    margin-right: 20px; 
+  }
+  
+  .tecnologias > div:last-child {
+    margin-right: 0; 
+  }
+    
+  .tecnologia {
+    position: relative; 
+    display: inline-block; 
+  }
+  
+  .tecnologia img {
+    opacity: 0; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .tecnologia:hover img {
+    opacity: 1; 
+  }
+  .titulo {
+    width: 160px; 
+    height: 200px; 
+    background-color: rgba(80, 46, 179, 0.7); 
+    text-align: center;
+    line-height: 30px; 
+  }
+  
+  .tecnologia {
+    position: relative; 
+    display: inline-block; 
+  }
+  
+  .tecnologia img {
+    opacity: 0; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .tecnologia:hover img {
+    opacity: 1; 
+  }
+  section {
+    border: 2px solid; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+    
+#sobre-mi {
+    border-color: #f32323; 
+  }
+  
+  #mis-tecnologias-favoritas {
+    border-color: #6495ED; 
+  }
+  
+  #mis-actividades-favoritas {
+    border-color: #32CD32; 
+  }
+
+  .container {
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  section {
+    border-radius: 10px; 
+    border-width: 2px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  #sobre-mi {
+    border-color: #FF6347; 
+  }
+  
+  #mis-tecnologias-favoritas {
+    border-color: #6495ED; 
+  }
+  
+  #mis-actividades-favoritas {
+    border-color: #32CD32; 
+  }
+  h2 {
+    text-align: center; 
+    font-weight: bold;
+    color: inherit; 
+  }
+  .title-class {
+    font-weight: bold;
+    font-size: 20px;
+}
